@@ -28,7 +28,7 @@ public class Command : MonoBehaviour
     private void Update()
     {
         Ray r = cam.ScreenPointToRay(pointerPos.ReadValue<Vector2>());
-        Debug.DrawLine(r.origin, r.origin + (r.direction * 100), Color.red);
+        Debug.DrawRay(r.origin, r.direction * 100, Color.red);
     }
 
     private void Click(InputAction.CallbackContext context)
@@ -40,8 +40,6 @@ public class Command : MonoBehaviour
                 case "Click":
                     Vector2 mousePos = pointerPos.ReadValue<Vector2>();
                     Ray pointRay = cam.ScreenPointToRay(mousePos);
-                    Debug.DrawLine(pointRay.origin, pointRay.origin + (pointRay.direction * 100), Color.green, 1.0f);
-
 
                     if (selected.Count == 0)
                     {
