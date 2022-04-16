@@ -47,23 +47,23 @@
                 },
                 {
                     "name": "",
-                    "id": "58ceb38a-3b16-4fba-abc9-2fa0de203c34",
-                    "path": "<Mouse>/rightButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "Clear",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "c00ce059-c1fa-46ce-9b9c-ccd46fe77a93",
                     "path": "<Mouse>/position",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "PointPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "58ceb38a-3b16-4fba-abc9-2fa0de203c34",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Clear",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
